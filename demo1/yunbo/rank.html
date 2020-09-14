@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云播TV</title> 
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/yunbo.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    
+</head>
+<body>
+    <div class="top">
+        <div id="top-1"><a href="yunbo.html" class="a">云播TV</a>
+            &nbsp; &nbsp; &nbsp;
+     <small class="font-small">一个只做电影的网站</small>
+     <div id="top-2">
+      <span>  <img src="images/watch.png"> 
+        <a>看过</span></a></div>
+        </div>        
+    </div>
+    <nav class="navbar navbar-default" role="navigation"> <!--最大的导航栏，默认-->
+        <div class="container"> <!--容器，它的左右有间距，和container-fluid不同，fluid则是从左侧对齐-->
+        <div>
+            <ul class="nav navbar-nav">  <!---->
+                <li class="dropdown"><!--下拉菜单-->
+                    <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">
+                        首页
+                       
+                      </a>   
+                      
+                    </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      电影
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li ><a href="#">动作片</a></li>
+                      <li><a href="#">喜剧片</a></li>
+                      <li><a href="#">爱情片 </a></li>
+                      <li><a href="#">科幻片</a></li>
+                      <li><a href="#">恐怖片</a></li>
+                      <li><a href="#">剧情片</a></li>
+                      <li><a href="#">战争片</a></li>
+                      <li><a href="#">记录片</a></li>
+                      <li><a href="#">微电影</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      电视剧
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li ><a href="#">国产剧</a></li>
+                      <li><a href="#">香港剧</a></li>
+                      <li><a href="#">台湾剧 </a></li>
+                      <li><a href="#">日本剧</a></li>
+                      <li><a href="#">欧美剧</a></li>
+                      <li><a href="#">韩国剧</a></li>
+                      <li><a href="#">海外剧</a></li>
+                    </ul>     
+                </li>
+
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      综艺
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li ><a href="#">内地综艺</a></li>
+                      <li><a href="#">港台综艺</a></li>
+                      <li><a href="#">日韩综艺 </a></li>
+                      <li><a href="#">欧美综艺</a></li>
+                    </ul>                  
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      动漫
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li ><a href="#">国产动漫</a></li>
+                      <li><a href="#">日韩动漫</a></li>
+                      <li><a href="#">港台动漫 </a></li>
+                      <li><a href="#">欧美动漫</a></li>
+                      <li><a href="#">海外动漫</a></li>
+                    </ul>                 
+                </li>
+
+
+                <li class="dropdown"><!--下拉菜单-->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     排行榜
+                    </a>   
+                </li>
+
+                <li class="dropdown"><!--下拉菜单-->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     留言
+                    </a>   
+                </li>
+            </ul>
+
+
+        </div>
+
+        <div class="input-group">
+            <input type="text" class="form-control input-sm" value="搜索">
+            <span class="input-group-addon btn btn-primary" >搜索</span>
+        </div>
+        </div>
+    </nav>
+   <section class="container">
+    <div class="alert alert-info" id="topInfo" >
+        <marquee>云播TV域名：yunbtv.com，备用：yunb.tv</marquee>
+    </marquee>
+    </div>
+    <ul class="breadcrumb ">
+      <li><img src="images/Sicon1.png"></li>
+      <li class="index"><a href="index.html">首页</a></li>
+      <li  class="index"><a href="#">在线留言</a></li>
+      <li></li>
+  </ul>
+
+  <div class="panel panel-success">
+	<div class="panel-heading">
+        <h3 class="panel-title" style="text-align: center;">留言面板</h3>
+    </div>
+    
+	<div class="panel-body">
+        <div class="pull-left" id="main1" style="width: 600px;height:400px;"></div>
+        <div id="main2"  class="pull-right" style="width: 500px;height:400px;"></div>
+	</div>
+</div>
+    
+</section>
+
+
+
+
+
+
+
+
+                        <section class="container">
+                        <div>
+                          <hr>
+                          <b>友情链接</b>
+                          <a>云播云影院</a>
+                          <a>2020电影排行榜</a>
+                          <a>YY影院</a>
+                          <hr>
+                      </div>
+</section>
+<footer class="footer">
+    <div class="container">
+      <p class="text-center text-muted">
+      本站所有内容均自动收集于互联网上各站点，我们不参与资源存储和录制上传，仅供测试和学习交流。
+      <br />
+      若无意中侵犯了您的版权，请发送邮件告知，我们将在3个工作日内进行处理！
+      <br>
+      Copyright © 2016-2020 yunbtv.com. All Rights Reserved. 
+      <br>
+      <a href="#">百度地图</a> <a href="#"> 谷歌地图</a>
+    </p>
+    </div>
+   </footer>
+   <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main1'));
+ 
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: '2020热播剧排行榜'
+            },
+            tooltip: {},
+            legend: {
+                data:['播放量']
+            },
+            xAxis: {
+                data: ["琉璃","三十而立","以家人之名","斗罗大陆第一季","太古神王","八佰"],
+                axisLabel:{
+                  interval: 0,
+                  formatter: function (value) {
+                    //x轴的文字改为竖版显示
+                    var str = value.split("");
+                    return str.join("\n");
+                  }
+                },
+            },
+            yAxis: {},
+            series: [{
+                name: '播放量',
+                type: 'bar', 
+                barWidth: 30,
+                data: [10, 20, 36, 10, 10, 20]
+               
+            }]
+        };
+ 
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main2'));
+
+    myChart.setOption({
+        title: {
+                text: '年龄阶段分布'
+            },
+        series : [
+            {
+                name: '年龄层分布',
+                type: 'pie',    // 设置图表类型为饼图
+                radius: '55%',  // 饼图的半径，外半径为可视区尺寸（容器高宽中较小一项）的 55% 长度。
+                data:[          // 数据数组，name 为数据项名称，value 为数据项值
+                    {value:235, name:'33-未知'},
+                    {value:274, name:'28-33岁'},
+                    {value:310, name:'22-28岁'},
+                    {value:335, name:'20-22岁'},
+                    {value:400, name:'16-20岁'}
+                ]
+            }
+        ]
+    })
+</script>
+</body>
+</html>
