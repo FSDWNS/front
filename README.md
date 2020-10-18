@@ -3,7 +3,7 @@
 > ##### 1.html+css+bootstrap+echarts实现云播TV的仿站布局。
 
 ![canvas.png](https://upload-images.jianshu.io/upload_images/24109213-fa65635f0711f63e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![canvas1.png](https://upload-images.jianshu.io/upload_images/24109213-bc2e3e1f56da776f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ![canvas2.png](https://upload-images.jianshu.io/upload_images/24109213-14a2d92add432a35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
