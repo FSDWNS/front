@@ -18,4 +18,4 @@
 
 ![canvas7.png](https://upload-images.jianshu.io/upload_images/24109213-bc5115d1f16051c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 > #### 2.学知在线（html5+css3）
-https://upload-images.jianshu.io/upload_images/24109213-9efe7f3a945693c2.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp
+![](https://upload-images.jianshu.io/upload_images/24109213-9efe7f3a945693c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
