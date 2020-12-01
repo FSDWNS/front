@@ -167,5 +167,3 @@ cols="列数"
 查阅文档：
 
 mdn网站：https://developer.mozilla.org/zh-CN/
-
-##### 
